@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InfoTech Actualités — FlixTools</title>
+  <meta name="description" content="InfoTech Actualités est une plateforme Laravel francophone d'actualité informatique avec import RSS en arrière-plan, recherche, catégories et stockage local.">
+  <meta name="theme-color" content="#2563eb">
+  <meta property="og:title" content="InfoTech Actualités — FlixTools">
+  <meta property="og:description" content="Une plateforme Laravel francophone pour agréger, organiser et consulter l'actualité informatique.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flixtools.github.io/infotech-actualites/">
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="../" aria-label="FlixTools — accueil">
+        <img src="../assets/logo.svg" alt="" width="42" height="42">
+        <span>FlixTools</span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="../">Accueil</a>
+        <a aria-current="page" href="./">InfoTech Actualités</a>
+        <a href="https://github.com/PassionFlix/actu-info">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="product-hero">
+      <div class="container product-grid">
+        <div>
+          <a class="back-link" href="../">← Tous les projets</a>
+          <div class="meta-row product-meta">
+            <span class="badge neutral">Socle publiable</span>
+            <span>Laravel · Docker · SQLite</span>
+          </div>
+          <h1>InfoTech Actualités</h1>
+          <p class="hero-text">
+            Une plateforme francophone d'actualité informatique qui importe les flux RSS en arrière-plan puis sert les contenus depuis une base locale.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="https://github.com/PassionFlix/actu-info">Voir le projet sur GitHub</a>
+          </div>
+          <p class="microcopy">Projet sous licence MIT · sources RSS de démonstration désactivées par défaut</p>
+        </div>
+
+        <aside class="product-summary">
+          <div class="summary-head">
+            <div class="app-icon">IT</div>
+            <div><strong>InfoTech Actualités</strong><span>Plateforme web francophone</span></div>
+          </div>
+          <dl>
+            <div><dt>Framework</dt><dd>Laravel</dd></div>
+            <div><dt>Base locale</dt><dd>SQLite par défaut</dd></div>
+            <div><dt>Import</dt><dd>RSS / Atom</dd></div>
+            <div><dt>Déploiement</dt><dd>Docker</dd></div>
+            <div><dt>Licence</dt><dd>MIT</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-title">
+          <div>
+            <p class="overline">Fonctionnalités</p>
+            <h2>Un socle simple pour agréger l'actualité IT.</h2>
+          </div>
+          <p>Les flux sont importés hors requête web. Les pages publiques lisent ensuite exclusivement la base locale.</p>
+        </div>
+
+        <div class="feature-list">
+          <article><span>01</span><div><h3>Import RSS et Atom</h3><p>Import transactionnel avec normalisation des URL et déduplication des contenus.</p></div></article>
+          <article><span>02</span><div><h3>Catégories hiérarchiques</h3><p>Classement des articles par catégories et sous-catégories avec navigation dédiée.</p></div></article>
+          <article><span>03</span><div><h3>Recherche intégrée</h3><p>Recherche dans les titres et résumés des articles publiés.</p></div></article>
+          <article><span>04</span><div><h3>Stockage local</h3><p>SQLite par défaut, avec compatibilité MariaDB via la configuration d'environnement.</p></div></article>
+          <article><span>05</span><div><h3>Cache applicatif</h3><p>Mise en cache de l'accueil et de l'arborescence des catégories pour limiter les requêtes répétitives.</p></div></article>
+          <article><span>06</span><div><h3>Docker</h3><p>Environnement de démarrage reproductible pour faciliter les tests et le déploiement local.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section">
+      <div class="container download-layout">
+        <div>
+          <p class="overline">État du projet</p>
+          <h2>Une base fonctionnelle, encore volontairement légère.</h2>
+          <p>Le projet fournit déjà le cœur public. L'administration complète, les rôles avancés, l'éditeur riche et la médiathèque restent à développer.</p>
+        </div>
+        <div class="download-list">
+          <a href="https://github.com/PassionFlix/actu-info">
+            <span><strong>Code source</strong><small>Dépôt GitHub du projet</small></span><b>GitHub →</b>
+          </a>
+          <a href="https://github.com/PassionFlix/actu-info/blob/main/README.md">
+            <span><strong>Documentation</strong><small>Installation, Docker et import RSS</small></span><b>README →</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container privacy-note">
+        <div class="privacy-mark">✓</div>
+        <div>
+          <p class="overline">Distribution propre</p>
+          <h2>Aucune donnée réelle n'est fournie avec le projet.</h2>
+          <p>
+            Le dépôt utilise des valeurs d'exemple, n'embarque pas de base locale de production et ne contient pas de secrets de configuration.
+            Les sources RSS de démonstration utilisent example.com et restent désactivées par défaut.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© 2026 FlixTools</span>
+      <span>InfoTech Actualités — licence MIT.</span>
+    </div>
+  </footer>
+</body>
+</html>
