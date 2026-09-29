@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adaptive Video Encoder — FlixTools</title>
+  <meta name="description" content="Adaptive Video Encoder : encodage H.265 adaptatif avec préservation Dolby Vision, HDR10, HLG, grain, audio et sous-titres.">
+  <meta name="theme-color" content="#2563eb">
+  <meta property="og:title" content="Adaptive Video Encoder — FlixTools">
+  <meta property="og:description" content="Un encodeur H.265 adaptatif orienté qualité et préservation des métadonnées HDR.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flixtools.github.io/adaptive-video-encoder/">
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="../" aria-label="FlixTools — accueil">
+        <img src="../assets/logo.svg" alt="" width="42" height="42">
+        <span>FlixTools</span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="../">Accueil</a>
+        <a aria-current="page" href="./">Adaptive Encoder</a>
+        <a href="https://github.com/PassionFlix/adaptive-video-encoder-releases">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="product-hero">
+      <div class="container product-grid">
+        <div>
+          <a class="back-link" href="../">← Tous les projets</a>
+          <div class="meta-row product-meta">
+            <span class="badge success">Public</span>
+            <span>Windows · Linux · macOS</span>
+          </div>
+          <h1>Adaptive Video Encoder</h1>
+          <p class="hero-text">
+            Un encodeur H.265 adaptatif conçu pour préserver la qualité, le grain cinématographique
+            et les métadonnées Dolby Vision, HDR10 et HLG sans régler manuellement x265 pour chaque vidéo.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="https://github.com/PassionFlix/adaptive-video-encoder-releases">Voir le projet</a>
+            <a class="button secondary" href="https://github.com/PassionFlix/adaptive-video-encoder-releases#-démarrage-rapide">Démarrage rapide</a>
+          </div>
+          <p class="microcopy">Encodage CPU x265 · MKV, MP4, MOV, AVI, MXF, WebM, M4V et TS</p>
+        </div>
+
+        <aside class="product-summary">
+          <div class="summary-head">
+            <div class="app-icon">AV</div>
+            <div><strong>Adaptive Video Encoder</strong><span>Encodage vidéo orienté qualité</span></div>
+          </div>
+          <dl>
+            <div><dt>Codec</dt><dd>H.265 / x265</dd></div>
+            <div><dt>HDR</dt><dd>Dolby Vision, HDR10, HLG</dd></div>
+            <div><dt>Analyse</dt><dd>Adaptative par vidéo</dd></div>
+            <div><dt>Audio</dt><dd>Pistes conservées par défaut</dd></div>
+            <div><dt>Plateformes</dt><dd>Windows, Linux, macOS</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-title">
+          <div>
+            <p class="overline">Fonctionnalités</p>
+            <h2>Préserver avant de compresser.</h2>
+          </div>
+          <p>L'objectif du projet est la conservation du détail, du grain et des métadonnées HDR plutôt que la compression la plus agressive possible.</p>
+        </div>
+
+        <div class="feature-list">
+          <article><span>01</span><div><h3>Analyse adaptative</h3><p>Analyse le bruit, le grain, la complexité et les contours afin d'adapter les paramètres x265 à la source.</p></div></article>
+          <article><span>02</span><div><h3>Dolby Vision</h3><p>Prise en charge des profils Dolby Vision 5, 7 et 8.x avec extraction et réinjection des métadonnées lorsque le workflow le permet.</p></div></article>
+          <article><span>03</span><div><h3>HDR10 & HLG</h3><p>Préserve les informations de couleur et les métadonnées HDR annoncées par la source.</p></div></article>
+          <article><span>04</span><div><h3>Grain cinématographique</h3><p>Détecte les sources granuleuses et privilégie des réglages qui évitent de lisser inutilement leur texture.</p></div></article>
+          <article><span>05</span><div><h3>Recadrage intelligent</h3><p>Détecte les bandes noires et prépare un recadrage adapté sans demander une configuration manuelle par fichier.</p></div></article>
+          <article><span>06</span><div><h3>Audio & sous-titres</h3><p>Les pistes audio et sous-titres sont conservées par défaut, avec des options pour adapter le traitement à votre bibliothèque.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section">
+      <div class="container download-layout">
+        <div>
+          <p class="overline">Utilisation</p>
+          <h2>Conçu pour l'archivage vidéo.</h2>
+          <p>Le projet privilégie l'encodage CPU x265 et la qualité par bit. Il s'adresse surtout aux vidéothèques où la préservation de l'image et des métadonnées compte davantage que la vitesse.</p>
+        </div>
+        <div class="download-list">
+          <a href="https://github.com/PassionFlix/adaptive-video-encoder-releases">
+            <span><strong>Documentation complète</strong><small>Installation, plateformes, options et exemples</small></span><b>GitHub →</b>
+          </a>
+          <a href="https://github.com/quietvoid/dovi_tool/releases">
+            <span><strong>dovi_tool</strong><small>Requis pour les workflows Dolby Vision</small></span><b>Projet →</b>
+          </a>
+          <a href="https://mkvtoolnix.download/downloads.html">
+            <span><strong>MKVToolNix</strong><small>mkvmerge requis pour la sortie MKV</small></span><b>Site →</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container privacy-note">
+        <div class="privacy-mark">✓</div>
+        <div>
+          <p class="overline">Philosophie</p>
+          <h2>Encoder une fois, regarder longtemps.</h2>
+          <p>
+            Adaptive Video Encoder vise les utilisateurs qui privilégient une qualité proche de la source et la préservation des caractéristiques de l'image. Pour les usages où seule la vitesse compte, un encodeur GPU peut être plus adapté.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© 2026 FlixTools</span>
+      <span>Adaptive Video Encoder est présenté comme un outil d'encodage et d'archivage de médias auxquels vous êtes autorisé à accéder.</span>
+    </div>
+  </footer>
+</body>
+</html>
