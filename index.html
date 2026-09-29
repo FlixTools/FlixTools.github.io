@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FlixTools — Applications, automatisation et outils pratiques</title>
-  <meta name="description" content="FlixTools regroupe des applications et outils pratiques pour le média, l'automatisation et l'infrastructure.">
-  <meta name="theme-color" content="#07111f">
+  <title>FlixTools — Des outils faits pour être utilisés</title>
+  <meta name="description" content="FlixTools développe des applications et outils pratiques pour le média, l'automatisation et l'infrastructure.">
+  <meta name="theme-color" content="#2563eb">
   <meta property="og:title" content="FlixTools">
-  <meta property="og:description" content="Des outils pratiques pour le média, l'automatisation et l'infrastructure.">
+  <meta property="og:description" content="Des outils faits pour être utilisés.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://flixtools.github.io/">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
@@ -15,136 +15,118 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container navbar">
-      <a class="brand" href="#top" aria-label="FlixTools — accueil">
-        <img class="brand-logo" src="assets/logo.svg" alt="" width="42" height="42">
+    <div class="container header-row">
+      <a class="brand" href="./" aria-label="FlixTools — accueil">
+        <img src="assets/logo.svg" alt="" width="42" height="42">
         <span>FlixTools</span>
       </a>
-      <nav class="nav-links" aria-label="Navigation principale">
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a aria-current="page" href="./">Accueil</a>
         <a href="#projects">Projets</a>
         <a href="#about">À propos</a>
-        <a class="github-link" href="https://github.com/FlixTools">GitHub</a>
+        <a href="https://github.com/FlixTools">GitHub</a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
+  <main>
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow">Applications · Média · Automatisation</div>
-          <h1>
-            Des outils qui vont
-            <span class="hero-gradient">droit au but.</span>
-          </h1>
-          <p class="hero-copy">
-            FlixTools rassemble des applications simples, utiles et modernes pour le média,
-            l'automatisation et l'infrastructure. Des outils pensés pour répondre à des besoins concrets.
+          <p class="overline">Applications · Média · Automatisation · Infrastructure</p>
+          <h1>Des outils faits pour être utilisés.</h1>
+          <p class="hero-text">
+            FlixTools rassemble des applications simples, utiles et concrètes.
+            Le but n'est pas d'en faire trop : juste de résoudre correctement un besoin.
           </p>
-          <div class="actions">
-            <a class="button primary" href="#projects">Découvrir les projets</a>
-            <a class="button" href="https://github.com/FlixTools">Voir FlixTools sur GitHub</a>
+          <div class="button-row">
+            <a class="button primary" href="#projects">Voir les projets</a>
+            <a class="button secondary" href="https://github.com/FlixTools">Organisation GitHub</a>
           </div>
         </div>
 
-        <div class="hero-panel" aria-hidden="true">
-          <div class="orbit"></div>
-          <div class="logo-card"><img src="assets/logo.svg" alt=""></div>
+        <div class="brand-panel" aria-label="Identité FlixTools">
+          <img src="assets/logo.svg" alt="Logo FlixTools" width="190" height="190">
+          <div>
+            <strong>FlixTools</strong>
+            <span>Logiciels et outils pratiques.</span>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section" id="projects">
       <div class="container">
-        <div class="section-heading">
+        <div class="section-title">
           <div>
-            <div class="eyebrow">Nos projets</div>
-            <h2>Des outils faits pour servir.</h2>
+            <p class="overline">Projets</p>
+            <h2>Les outils disponibles</h2>
           </div>
-          <p>
-            FlixTools commence avec IPTV Explorer Desktop. Les prochains projets apparaîtront ici uniquement lorsqu'ils seront prêts à être présentés publiquement.
-          </p>
+          <p>Les projets apparaissent ici lorsqu'ils sont suffisamment aboutis pour être présentés publiquement.</p>
         </div>
 
-        <div class="projects">
-          <article class="project-card featured">
-            <div class="project-topline">
-              <span class="status">Stable 1.0.0</span>
-              <span>Windows 10/11 · x64</span>
+        <div class="project-grid">
+          <article class="project-card featured-card">
+            <div class="project-visual tv-visual" aria-hidden="true">
+              <div class="tv-screen">
+                <span>LIVE</span>
+                <span>FILMS</span>
+                <span>SÉRIES</span>
+              </div>
+              <div class="tv-foot"></div>
             </div>
-            <h3>IPTV Explorer Desktop</h3>
-            <p>
-              Application Windows native pour explorer et lire vos catalogues compatibles Xtream Codes et Stalker/MAG,
-              avec Live, Films, Séries, recherche locale, lecteur libmpv intégré et téléchargements suivis.
-            </p>
-            <div class="project-links">
-              <a href="iptv-explorer/">Découvrir IPTV Explorer →</a>
-              <a href="https://github.com/PassionFlix/iptv-explorer-desktop/releases/latest">Télécharger →</a>
-              <a href="https://github.com/PassionFlix/iptv-explorer-desktop">Code source →</a>
+            <div class="project-copy">
+              <div class="meta-row">
+                <span class="badge success">Stable 1.0.0</span>
+                <span>Windows 10/11 · x64</span>
+              </div>
+              <h3>IPTV Explorer Desktop</h3>
+              <p>
+                Une application Windows native pour explorer Live, Films et Séries avec Xtream Codes et Stalker/MAG,
+                recherche locale, lecteur libmpv intégré et téléchargements suivis.
+              </p>
+              <div class="text-links">
+                <a href="iptv-explorer/">Découvrir IPTV Explorer</a>
+                <a href="https://github.com/PassionFlix/iptv-explorer-desktop/releases/latest">Télécharger</a>
+              </div>
             </div>
           </article>
 
-          <article class="project-card upcoming">
-            <div class="project-topline">
-              <span class="status neutral">En construction</span>
+          <article class="project-card small-card">
+            <div class="project-copy">
+              <div class="meta-row"><span class="badge neutral">En préparation</span></div>
+              <h3>Prochains outils</h3>
+              <p>
+                D'autres projets rejoindront FlixTools lorsqu'ils seront prêts à être documentés et distribués publiquement.
+              </p>
+              <div class="text-links"><a href="https://github.com/FlixTools">Suivre FlixTools sur GitHub</a></div>
             </div>
-            <h3>FlixTools grandit.</h3>
-            <p>
-              Média, automatisation, infrastructure : d'autres outils rejoindront progressivement la vitrine FlixTools.
-            </p>
-            <div class="project-links">
-              <a href="https://github.com/FlixTools">Suivre l'organisation →</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="category-grid" aria-label="Domaines FlixTools">
-          <article class="category-card">
-            <small>Média</small>
-            <h3>Lecture, catalogues et traitement</h3>
-            <p>Des outils orientés vidéo et médias, avec une attention particulière à l'expérience utilisateur.</p>
-          </article>
-          <article class="category-card">
-            <small>Automatisation</small>
-            <h3>Moins de tâches répétitives</h3>
-            <p>Des workflows qui simplifient les opérations et gardent les actions importantes visibles.</p>
-          </article>
-          <article class="category-card">
-            <small>Infrastructure</small>
-            <h3>Des outils pour le terrain</h3>
-            <p>Administration, déploiement et services : FlixTools reste ancré dans des besoins techniques réels.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
+    <section class="section soft-section" id="about">
       <div class="container">
-        <div class="section-heading">
+        <div class="section-title compact-title">
           <div>
-            <div class="eyebrow">Notre approche</div>
-            <h2>Pratique avant tout.</h2>
+            <p class="overline">Notre terrain de jeu</p>
+            <h2>Des projets très différents, une même logique.</h2>
           </div>
-          <p>
-            FlixTools regroupe des projets construits autour d'un même principe : résoudre un besoin clairement,
-            avec des interfaces compréhensibles et une base technique fiable.
-          </p>
         </div>
+        <div class="topic-grid">
+          <article><span>01</span><h3>Média</h3><p>Lecture, catalogues, encodage et outils qui simplifient les workflows multimédias.</p></article>
+          <article><span>02</span><h3>Automatisation</h3><p>Des tâches répétitives transformées en outils simples et fiables.</p></article>
+          <article><span>03</span><h3>Infrastructure & IT</h3><p>Des utilitaires pensés pour l'administration, le déploiement et le quotidien technique.</p></article>
+        </div>
+      </div>
+    </section>
 
-        <div class="values">
-          <div class="value">
-            <strong>Simple à utiliser</strong>
-            <span>Des interfaces claires et des parcours pensés pour aller vite.</span>
-          </div>
-          <div class="value">
-            <strong>Conçu pour le réel</strong>
-            <span>Les projets partent d'usages pratiques plutôt que de démonstrations théoriques.</span>
-          </div>
-          <div class="value">
-            <strong>Amélioré en continu</strong>
-            <span>Les outils évoluent avec les tests, les retours et les nouveaux besoins.</span>
-          </div>
-        </div>
+    <section class="section manifesto">
+      <div class="container manifesto-inner">
+        <p class="overline">FlixTools</p>
+        <h2>Simple à comprendre.<br>Simple à utiliser.<br>Utile au quotidien.</h2>
+        <p>Pas de catalogue de promesses. Chaque projet doit d'abord fonctionner correctement et répondre à un besoin réel.</p>
       </div>
     </section>
   </main>
@@ -152,7 +134,7 @@
   <footer class="site-footer">
     <div class="container footer-row">
       <span>© 2026 FlixTools</span>
-      <span>Applications, automatisation et outils pratiques.</span>
+      <span>Applications et outils développés indépendamment.</span>
     </div>
   </footer>
 </body>

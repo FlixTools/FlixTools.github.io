@@ -1,25 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
   <title id="title">FlixTools</title>
-  <desc id="desc">Monogramme FT bleu et cyan dans un carré arrondi.</desc>
-  <defs>
-    <linearGradient id="bg" x1="12" y1="8" x2="116" y2="120" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#14365A"/>
-      <stop offset="1" stop-color="#071827"/>
-    </linearGradient>
-    <linearGradient id="mark" x1="28" y1="28" x2="103" y2="103" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8BD2FF"/>
-      <stop offset="0.55" stop-color="#4AA6F2"/>
-      <stop offset="1" stop-color="#64E4E9"/>
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.62 0 0 0 0 0.94 0 0 0 .45 0"/>
-    </filter>
-  </defs>
-  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#bg)" stroke="#5FB6F0" stroke-opacity=".35"/>
-  <path d="M29 31h45v15H45v15h24v14H45v24H29V31Z" fill="#5FB6F0" opacity=".28" filter="url(#glow)"/>
-  <path d="M29 31h45v15H45v15h24v14H45v24H29V31Z" fill="url(#mark)"/>
-  <path d="M67 31h37v15H93v53H77V46H67V31Z" fill="#7FE7EC" opacity=".2" filter="url(#glow)"/>
-  <path d="M67 31h37v15H93v53H77V46H67V31Z" fill="url(#mark)"/>
-  <circle cx="105" cy="23" r="5" fill="#73E8EE" opacity=".9"/>
+  <desc id="desc">Logo géométrique bleu de FlixTools.</desc>
+  <rect x="5" y="5" width="118" height="118" rx="24" fill="#f8fafc" stroke="#d7e0ea" stroke-width="6"/>
+  <rect x="27" y="26" width="74" height="18" rx="5" fill="#2563eb"/>
+  <rect x="55" y="26" width="18" height="76" rx="5" fill="#2563eb"/>
+  <rect x="22" y="70" width="20" height="24" rx="4" fill="#60a5fa"/>
+  <rect x="86" y="70" width="20" height="24" rx="4" fill="#60a5fa"/>
 </svg>
